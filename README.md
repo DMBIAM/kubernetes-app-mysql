@@ -14,7 +14,7 @@ Recuerde que podrá cambiarlos por uno de su preferencia, solo se asignan para t
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-Para probar todo el cluster, puede utilizar puede visitar el proyecto en: https://github.com/DMBIAM/RestApiNodeJs y combinarlo con kubernetes
+Para probar todo el cluster, puede visitar el proyecto: https://github.com/DMBIAM/RestApiNodeJs y combinarlo con kubernetes
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
