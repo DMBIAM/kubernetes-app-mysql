@@ -5,3 +5,20 @@ El cluster a construir de kubernetes asociado al app, requiere que la imagen  ap
 
 
 Para comprender el app completamente, puede visitar el proyecto en: https://github.com/DMBIAM/RestApiNodeJs
+
+Para poder cosntruir el cluster solo es necesario ejecutar los comandos:
+
+Para MYSQL: 
+kubectl apply -f kubernetes/mysql.yml 
+
+Para el APP:
+kubectl apply -f kubernetes/app.yml
+
+Listar todos los POD: 
+kubectl get pods
+
+Listar todos los cluster y sus ip:
+kubectl get svc
+
+Realizar port forward:
+kubectl port-forward svc/xxxxx 3306:3306
