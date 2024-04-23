@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  api:
+    image: app_restapi_nodejs
+    build: 
+      dockerfile: Dockerfile
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+    privileged: true
+    ports:
+      - ":8000"
+    networks:
+      - default
+    dns: 
+      - "8.8.8.8"
+      - "1.1.1.1"
